@@ -1,0 +1,77 @@
+.section1 {
+    padding: 25px;
+    text-align: center;
+}
+
+.section1__container {
+    display: flex;
+}
+
+.section1__aside1 {
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+}
+
+.section1__aside2 {
+    width: 50%;
+    text-align: right;
+    padding: 30px;
+}
+
+.section1__input {
+    border: 1px solid #cfcfcf;
+    padding: 8px;
+    margin: 5px;
+}
+
+.msg {
+    width: 66%;
+}
+
+.section1__btn {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+h5 {
+    color: #8c8c8c
+}
+
+/* section2 */
+.section2 {
+    padding: 25px;
+}
+
+.section2__table {
+    width: 98%;
+    border: 2px solid white;
+
+}
+
+.section2__tablehead {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+.section2__headdata {
+    padding: 10px;
+}
+
+.section2__tabledata {
+    margin: 0px;
+    border: 1px solid #cfcfcf;
+    padding: 5px;
+}
+
+tbody:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
